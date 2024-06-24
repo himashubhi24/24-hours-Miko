@@ -35,7 +35,7 @@ SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "instantearn.in")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "f7d362ec353e31b674dd4675409b01a67e0e02a4")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("https://t.me/tokenbotuse")
+TUT_VID = os.environ.get("https://t.me/tokenbotuse/6")
 
 
 #force sub channel id, if you want enable force sub
