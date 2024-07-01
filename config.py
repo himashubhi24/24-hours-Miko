@@ -31,7 +31,7 @@ PORT = os.environ.get("PORT", "8080")
 DB_URI = "mongodb+srv://susantamusic:susantabhan@cluster0.5pwi1py.mongodb.net/?retryWrites=true&w=majority"
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "https://inshorturl.com/")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "https:inshorturl.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "0fc7682dbc24201efce25076a06f34a05ef0ea14
 ")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
